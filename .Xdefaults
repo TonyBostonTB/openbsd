@@ -1,9 +1,7 @@
-
-Xcursor*theme: PolarCursorTheme-Green
 Xcursor.size: 10
 
-*title:  urxvt
-*termName: rxvt-unicode
+*title:  xterm
+*termName: xterm
 *background:  #002b36
 *foreground:  #839496
 *fading:   40
@@ -35,7 +33,7 @@ Xcursor.size: 10
 *color14:     #93a1a1
 *color15:     #fdf6e3
 
-*geometry:    117x24
+*geometry:    90x25
 *internalborder: 2
 
 *scrollTtyKeypress: true
