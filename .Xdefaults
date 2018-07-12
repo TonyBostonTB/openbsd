@@ -15,6 +15,7 @@ Xcursor.size: 10
 *boldFont: xft:Liberation Mono:pixelsize=12:antialias=true:bold:hinting=true
 *italicFont: xft:Liberation Mono:pixelsize=12:antialias=true:italic:autohint=true:hinting=true
 *bolditalicFont: xft:Liberation Mono:pixelsize=12:antialias=true:bold:italic:autohint=true:hinting=true
+*locale: UTF-8
 
 *color0:      #073642
 *color1:      #dc322f
