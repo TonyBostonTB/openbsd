@@ -21,4 +21,4 @@ no_buffers yes
 uppercase yes
 
 TEXT
-${color #88ff88} ${alignr}UP: ${execi 60 uptime | grep up | awk '{print $3}' | cut -d , -f 1} ${color #ccccee} | ${color #88ff88} CPU: $freq_g GHz USED: ${cpu cpu0}%  ${color #ccccee} | ${color #88ff88} TEMP: ${execi 10 sysctl -n hw.sensors.cpu0.temp0 | cut -d . -f 1}C  ${color #ccccee} | ${color #88ff88} RAM: ${execi 5 top -n 1 | grep "Mem" | awk '{print $3}' | cut -d / -f 1}  ${color #ccccee} | ${color #88ff88} BAT: ${apm_battery_life} ${apm_battery_time}  ${color #ccccee} | ${color #88ff88} ${time %B %d %R}
+${color #88ff88} ${alignr}UP: ${execi 60 uptime | grep up | awk '{print $3}' | cut -d , -f 1} ${color #ccccee} | ${color #88ff88} CPU: $freq_g GHz USED: ${cpu cpu0}%  ${color #ccccee} | ${color #88ff88} TEMP: ${execi 10 sysctl -n hw.sensors.cpu0.temp0 | cut -d . -f 1}C  ${color #ccccee} | ${color #88ff88} RAM: ${execi 5 top -n 1 | grep "Mem" | awk '{print $3}' | cut -d / -f 1}  ${color #ccccee} | ${color #88ff88} BAT: ${apm_battery_life} ${apm_battery_time}  ${color #ccccee} | ${color #88ff88} ${time %d %B %R}
